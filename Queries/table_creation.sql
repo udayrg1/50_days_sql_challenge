@@ -34,3 +34,26 @@ CREATE TABLE performance (
     rating_2023 VARCHAR(10),
     rating_2024 VARCHAR(10)
 );
+
+-- cleanead dataset --
+
+CREATE TABLE cleaned_departments
+AS
+SELECT * FROM departments;
+
+CREATE TABLE cleaned_employees
+AS
+SELECT * FROM employees;
+
+
+CREATE TABLE cleaned_salaries
+AS
+SELECT * FROM salaries;
+
+CREATE TABLE cleaned_attendance
+AS
+SELECT * FROM attendance;
+
+CREATE TABLE cleaned_performance
+AS
+SELECT * FROM performance;
